@@ -11,7 +11,7 @@ options.add_argument("--disable-gpu")
 
 
 url = "https://www.hangseng.com/en-hk/e-valuation/address-search/"
-driver = webdriver.Chrome("/usr/local/bin/chromedriver", options=options)
+driver = webdriver.Chrome(options=options)
 driver.set_window_size(1280, 1024)
 driver.get(url)
 
