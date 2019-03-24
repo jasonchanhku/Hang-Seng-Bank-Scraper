@@ -6,6 +6,8 @@ import sqlite3
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
 options.add_argument("--start-maximized")
+options.add_argument("--disable-gpu")
+
 
 
 url = "https://www.hangseng.com/en-hk/e-valuation/address-search/"
